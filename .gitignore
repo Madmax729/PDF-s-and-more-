@@ -1,0 +1,43 @@
+# Ignore virtual environment
+chat_venv/
+venv/
+*.venv/
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and dependency files
+.env
+*.env
+
+# VS Code settings and logs
+.vscode/
+*.log
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Ignore package manager files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore Jupyter extension files
+share/jupyter/
+
+# Ignore dependency caches
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore system files
+.DS_Store
+Thumbs.db
